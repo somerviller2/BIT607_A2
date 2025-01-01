@@ -183,15 +183,6 @@ width: 33.3333%;
 justify-content: center;
 padding: 1%;
 }
-#testphoto1{
-    width: 100%;
-}
-#testphoto2{
-    width: 100%;
-}
-#testphoto3{
-    width: 100%;
-}
 /*Footer*/
 .footer{
     background-color: rgb(224, 201, 165);
@@ -210,9 +201,6 @@ padding: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
-}
-#calendar{
-    width: 100%;
 }
 iframe{
     width: 100%;
@@ -272,6 +260,9 @@ td{
     width:25%;
     justify-content: center;
     padding: 1%;
+}
+.gallery{
+    width: 100%;
 }
 /*Contact page*/
 #storefront{
