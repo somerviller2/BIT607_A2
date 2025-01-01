@@ -183,7 +183,13 @@ width: 33.3333%;
 justify-content: center;
 padding: 1%;
 }
-#testphoto{
+#testphoto1{
+    width: 100%;
+}
+#testphoto2{
+    width: 100%;
+}
+#testphoto3{
     width: 100%;
 }
 /*Footer*/
