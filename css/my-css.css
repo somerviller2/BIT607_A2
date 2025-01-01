@@ -189,10 +189,11 @@ padding: 1%;
     bottom: 0;
 }
 .footcontact{
-    width:100%
+    width:100%;
     justify-content: space-evenly;
 }
 /*Bookings Page*/
+
 /*Services Page*/
 .column2a{
     float:left;
