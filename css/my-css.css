@@ -134,7 +134,7 @@ p{
     width: 20%;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: right;
+    align-items:end;
 
 }
 ul{
