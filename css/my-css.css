@@ -202,7 +202,22 @@ padding: 1%;
     justify-content: space-evenly;
 }
 /*Bookings Page*/
-
+.label{
+    padding: 3%;
+    border: 5px solid rgb(49, 34, 12);
+    font-size: large;
+    color: rgb(49, 34, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+#calendar{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    border-style: none;
+}
 /*Services Page*/
 .column2a{
     float:left;
