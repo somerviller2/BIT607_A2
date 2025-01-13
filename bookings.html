@@ -3,104 +3,130 @@
     <head>
         <meta charset= "utf-8">
         <title>Snazzy Paws | Bookings</title>
-        <meta name="viewport" content= "width=device-width,initial-scale=1">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/my-css.css">
         <!--This is for the font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+        <!--This is for W3.CSS-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
+        <!--This is for Google Analytics-->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WD54B5H3M"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6WD54B5H3M');
+        </script>
     </head>
     <body>
-        <header class="header">
-            <img src="images/SnazzyPawslogo.png" alt="Snazzy Paws Logo" height="100" width="100">
-            <h1>Snazzy Paws</h1>
-            <h2 id="login"><a href=#>Log in</a></h2>
+        <header class="w3-container w3-food-asparagus w3-card-6 w3-padding-16">
+            <div class="w3-quarter">
+                <img src="images/SnazzyPawslogo.png" alt="Snazzy Paws Logo" height="100" width="100">
+            </div>
+            <div class="w3-half">
+                <h1>Snazzy Paws</h1>
+            </div>
+            <div class="w3-quarter">
+                <h2 class="w3-button w3-food-asparagus w3-medium w3-ripple w3-hover-sand w3-right w3-border w3-border-brown w3-round-medium">
+                    <a href=#>Log in</a>
+                </h2>
+            </div>
         </header>
-        <nav class="topnav">
-                <a href='index.html'>Home</a>
-                <a href='services.html'>Services</a>
-                <a id="current-page" href='bookings.html'>Bookings</a>
-                <a href='gallery.html'>Gallery</a>
-                <a href='resources.html'>Resources</a>
-                <a href='contact.html'>Contact</a>
+        <nav class="w3-center">
+            <div class="w3-bar w3-food-egg">
+                <a href='index.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Home</a>
+                <a href='services.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Services</a>
+                <a href='bookings.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Bookings</a>
+                <a href='gallery.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Gallery</a>
+                <a href='resources.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Resources</a>
+                <a href='contact.html' class="w3-bar-item w3-button w3-hover-khaki w3-ripple">Contact</a>
+            </div>
         </nav>
         <main>
         <!--Row 1-->
-            <div class="row">
-                <div class="column2b">
-                    <div class="row">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <div class="w3-row-padding">
                         <div class="label">
                             <a href="#">My Bookings</a>
                          </div>
-                         <br>
+                    </div>
+                    <br>
+                    <div class="w3-row-padding">
                          <div class="label">
                             <a href="services.html">Services</a>
                          </div>
                     </div>
-                    <div class="row">
+                    <br>
+                    <div class="w3-row-padding">
                         <img src="images/calendar.png" class="gallery" alt="Image of a Calendar, non-functional" width="295">
                     </div>
-                    <div class="row">
-                        <h2>Opening Hours</h2>
+                    <div class="w3-row">
+                        <h3>Opening Hours</h3>
                         <ul>
                             <li>Monday to Friday: 9am - 7pm</li>
                             <li>Weekends and Public Holidays: 10am - 6pm</li>
                         </ul>
                     </div>
                 </div>
-                <div class="column2a">
-                    <div class="row">
-                        <h2>Booking</h2>
+                <div class="w3-twothird">
+                    <div class="w3-row">
+                        <h3>Booking</h3>
                     </div>
-                    <div class="row">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfReiac8Xgxg77CKvVydc8nCfc6ITYuh7WBpqj564gpd88cNw/viewform?embedded=true" 
-                        width="400" height="600"></iframe>
+                    <div class="w3-row">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfReiac8Xgxg77CKvVydc8nCfc6ITYuh7WBpqj564gpd88cNw/viewform?embedded=true" width="400" height="600"></iframe>
                     </div>
                 </div>
             </div>
         </main>
     <!--footer-->
-        <footer class="footer">
-            <div class="row">
-                <div class="column3">
-                    <div class="column">
+    <footer class="footer">
+        <div class="w3-row">
+            <div class="w3-third">
+                <div class="w3-half">
+                    <ul>
+                        <li><a href='index.html'>Home</a></li>
+                        <li><a href='services.html'>Services</a></li>
+                        <li><a href='bookings.html'>Bookings</a></li>
+                        <li><a href='gallery.html'>Gallery</a></li>
+                        <li><a href='resources.html'>Resources</a></li>
+                        <li><a href='contact.html'>Contact</a></li>
+                        <br>
+                        <li>&copy; Copyright 2024 by Snazzy Paws Pet Groomers</li>
+                    </ul>
+                </div>
+                <div class="w3-half">
+                    <img src="images/SnazzyPawslogo.png" alt="Snazzy Paws Logo" width="100">
+                </div>
+            </div>
+            <div class="w3-third">
+                <h1>Snazzy Paws</h1>
+            </div>
+            <div class="w3-third">
+                <div class="w3-row-padding">
+                    <div class="w3-half">
+                        <h3>Opening Hours</h3>
                         <ul>
-                            <li><a href='index.html'>Home</a></li>
-                            <li><a href='services.html'>Services</a></li>
-                            <li><a href='bookings.html'>Bookings</a></li>
-                            <li><a href='gallery.html'>Gallery</a></li>
-                            <li><a href='resources.html'>Resources</a></li>
-                            <li><a href='contact.html'>Contact</a></li>
-                            <li>&copy; Copyright 2024 by Snazzy Paws Pet Groomers</li>
+                            <li>Monday to Friday: 9am - 7pm</li>
+                            <li>Weekends and Public Holidays: 10am - 6pm</li>
                         </ul>
                     </div>
-                    <div class="column">
-                        <img src="images/SnazzyPawslogo.png" alt="Snazzy Paws Logo" width="100">
-                    </div>
-                </div>
-                <div class="column3">
-                    <h1>Snazzy Paws</h1>
-                </div>
-                <div class="column3">
-                    <div class="footcontact">
-                        <div class="column">
-                            <h2>Opening Hours</h2>
-                            <ul>
-                                <li>Monday to Friday: 9am - 7pm</li>
-                                <li>Weekends and Public Holidays: 10am - 6pm</li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h2> Contact Details</h2>
-                            <ul> 
-                                <li>Phone&colon; 000 000</li>
-                                <li>Address&colon; 44 Vercoe Road&comma; Beerescourt&comma; Hamilton 3200</li>
-                                <li>Email: <a href=#>hello&commat;snazzypaws.co.nz </a></li>
-                            </ul>
-                        </div>
+                    <div class="w3-half">
+                        <h3> Contact Details</h3>
+                        <ul> 
+                            <li>Phone&colon; 000 000</li>
+                            <li>Address&colon; 44 Vercoe Road&comma; Beerescourt&comma; Hamilton 3200</li>
+                            <li>Email: <a href=#>hello&commat;snazzypaws.co.nz </a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </body>
 </html>
